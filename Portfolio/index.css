@@ -2,9 +2,9 @@
   --font-family: "Figtree", sans-serif;
   --color-light: #f5f5f5;
   --color-medium: #959494;
-  --color-hover: #3e3d3d;
-  --color-dark-primary: #1b1b1b;
-  --color-dark-secondary: #2a2929;
+  --color-semibold: #3e3d3d;
+  --color-bold: #2a2929;
+  --color-black: #1b1b1b;
 }
 
 *,
@@ -25,7 +25,7 @@ html:focus-within {
 }
 
 body {
-  background-color: var(--color-dark-primary);
+  background-color: var(--color-black);
   color: var(--color-light);
   display: grid;
   gap: 6rem;
@@ -71,7 +71,7 @@ a {
 }
 
 hr {
-  color: var(--color-dark-secondary);
+  color: var(--color-bold);
 }
 
 main {
@@ -96,14 +96,25 @@ main {
 }
 
 .project {
-  background-color: var(--color-dark-secondary);
+  background-color: var(--color-bold);
   border-radius: 0.5rem;
   cursor: pointer;
   padding: 2rem;
 }
 
-.project:hover {
-  background-color: var(--color-hover);
+.project:hover,
+.project:active {
+  background-color: var(--color-semibold);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-symbols-outlined:hover,
+.material-symbols-outlined:active {
+  color: var(--color-light);
 }
 
 .project-tools {
