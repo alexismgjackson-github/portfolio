@@ -29,7 +29,7 @@ body {
   color: var(--color-light);
   display: grid;
   gap: 6rem;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 h1,
@@ -71,7 +71,11 @@ a {
 }
 
 hr {
-  color: var(--color-bold);
+  color: var(--color-semibold);
+}
+
+header {
+  text-align: center;
 }
 
 main {
@@ -120,6 +124,7 @@ main {
 .project-tools {
   display: flex;
   gap: 2.5rem;
+  padding: 1rem 0;
 }
 
 .tool,
