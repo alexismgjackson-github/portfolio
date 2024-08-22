@@ -142,8 +142,8 @@ footer {
   text-align: center;
 }
 
-.link:hover,
-.link:active {
+.footer-link:hover,
+.footer-link:active {
   color: var(--color-light);
 }
 
