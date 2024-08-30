@@ -1,12 +1,11 @@
 :root {
-  --font-color: #1b1b1b;
-  --font-family: "Figtree", sans-serif;
   --background-color: #f5f5f5;
+  --color-highlight: #ff4f00;
   --color-light: #f5f5f5;
   --color-medium: #959494;
   --color-semibold: #3e3d3d;
-  --color-bold: #2a2929;
-  --color-highlight: #1e90ff;
+  --font-color: #1b1b1b;
+  --font-family: "Figtree", sans-serif;
 }
 
 *,
@@ -71,10 +70,6 @@ li {
 a {
   color: var(--color-medium);
   text-decoration: none;
-}
-
-hr {
-  color: var(--color-semibold);
 }
 
 /* HEADER */
@@ -155,6 +150,7 @@ main {
 
 .experience-duration {
   color: var(--color-medium);
+  font-weight: 500;
 }
 
 .project {
