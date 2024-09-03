@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -113,17 +113,16 @@
         <div class="projects-grid" id="projects-grid">
           <div class="project">
             <div class="project-header">
-              <h3 class="project-name">Taskmaster</h3>
+              <h3 class="project-name">Stocker</h3>
               <a href="#" class="project-link" alt="Link to Checklist project">
                 <span class="material-symbols-outlined">open_in_new</span>
               </a>
             </div>
             <p class="project-details">
-              Have things to do? Manage tasks with this three-board kanban
-              system. The user can drag and drop tasks to change their status
-              (i.e. Backlog, Pending, Completed), edit and remove tasks from
-              each board. The app utilizes LocalStorage to store data in the
-              kanban system.
+              Need help managing your inventory? The user can register a new
+              items, remove or update an existing item in great detail. Also,
+              the user has the ability to upload photos of each item. The app
+              utilizes LocalStorage to store data in the inventory system.
             </p>
             <ul class="project-tools">
               <li class="tool">JavaScript</li>
@@ -141,9 +140,9 @@
             <p class="project-details">
               Are you a movie enthusiast? This app allows the user to search for
               movies, explore their details and add/remove the movie to a watch
-              list. The app receives data from The Movie Database API and
-              utilizes Firebase Realtime Database to store data in the watch
-              list.
+              list. The app uses Firebase Authentication to identify the user.
+              The app receives data from The Movie Database API and utilizes
+              Firebase Realtime Database to store data in the watch list.
             </p>
             <ul class="project-tools">
               <li class="tool">JavaScript</li>
@@ -169,25 +168,7 @@
             <ul class="project-tools">
               <li class="tool">React</li>
               <li class="tool">CSS</li>
-              <li class="tool">Firebase</li>
-            </ul>
-          </div>
-          <div class="project">
-            <div class="project-header">
-              <h3 class="project-name">Quizzical</h3>
-              <a href="#" class="project-link" alt="Link to Quizzical project">
-                <span class="material-symbols-outlined">open_in_new</span>
-              </a>
-            </div>
-            <p class="project-details">
-              Testing your trivia knowledge? This app allows the user to choose
-              a trivia category, number of questions and level of difficulty.
-              This app is built using The Open Trivia Database API.
-            </p>
-            <ul class="project-tools">
-              <li class="tool">React</li>
-              <li class="tool">CSS</li>
-              <li class="tool">API</li>
+              <li class="tool">React Router 6</li>
             </ul>
           </div>
         </div>
@@ -203,6 +184,6 @@
         </li>
       </ul>
     </footer>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
