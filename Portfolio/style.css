@@ -1,10 +1,9 @@
 :root {
-  --background-color: #f5f5f5;
-  --color-highlight: #8000ff;
+  --background-color: #f0ede6;
   --color-light: #f5f5f5;
-  --color-medium: #959494;
+  --color-medium: #747373;
   --color-semibold: #3e3d3d;
-  --font-color: #1b1b1b;
+  --font-color: #261e1a;
   --font-family: "Figtree", sans-serif;
 }
 
@@ -26,8 +25,8 @@ html:focus-within {
 }
 
 [data-theme="dark"] {
-  --background-color: #1b1b1b;
-  --font-color: #f5f5f5;
+  --background-color: #261e1a;
+  --font-color: #f0ede6;
 }
 
 body {
