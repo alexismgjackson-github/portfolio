@@ -5,8 +5,8 @@ const toggleSwitch = document.querySelector(
 // Read key data from local storage
 const currentTheme = localStorage.getItem("theme");
 
-// if the current theme is true, set a "data-theme" attribute to document and "currentTheme" value
-// if the current theme is strictly equal to "dark" set the toggle switch checked to true
+// If the current theme is true, set a "data-theme" attribute to document and "currentTheme" value
+// If the current theme is strictly equal to "dark" set the toggle switch checked to true
 if (currentTheme) {
   document.documentElement.setAttribute("data-theme", currentTheme);
 
