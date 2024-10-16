@@ -58,6 +58,10 @@ li {
   font-size: 1.6rem;
 }
 
+a:hover {
+  opacity: 0.5;
+}
+
 p {
   line-height: 2.4rem;
 }
@@ -185,6 +189,13 @@ footer {
 .footer-link {
   text-align: center;
   text-decoration: underline;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0 8rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
