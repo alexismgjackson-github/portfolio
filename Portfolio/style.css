@@ -160,7 +160,7 @@ main {
 }
 
 .project {
-  border: 2px solid var(--color-medium);
+  border: 1px solid var(--color-medium);
   border-radius: 0.5rem;
   padding: 2rem;
 }
