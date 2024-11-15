@@ -5,7 +5,7 @@
   --color-semibold: #3e3d3d;
   --color-highlight: #464ee7;
   --font-color: #100c08;
-  --font-family: "Didact Gothic", sans-serif;
+  --font-family: "Outfit", sans-serif;
 }
 
 *,
@@ -34,12 +34,12 @@ body {
   background-color: var(--background-color);
   color: var(--font-color);
   display: grid;
-  gap: 6rem;
+  gap: 10rem;
   padding: 2rem;
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
 }
 
 h2 {
@@ -139,13 +139,13 @@ input:checked + .slider:before {
 
 main {
   display: grid;
-  gap: 8rem;
+  gap: 10rem;
 }
 
 .experience-grid,
 .projects-grid {
   display: grid;
-  gap: 4rem;
+  gap: 6rem;
 }
 
 .experience,
