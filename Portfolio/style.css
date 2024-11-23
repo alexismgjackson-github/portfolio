@@ -5,7 +5,7 @@
   --color-semibold: #3e3d3d;
   --color-highlight: #464ee7;
   --font-color: #100c08;
-  --font-family: "Parkinsans", sans-serif;
+  --font-family: "Inter", sans-serif;
 }
 
 *,
@@ -162,7 +162,7 @@ main {
 .project {
   border: 1px solid var(--color-medium);
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .project-header {
@@ -192,6 +192,13 @@ footer {
   text-align: center;
   text-decoration: underline;
   text-transform: uppercase;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 1.5rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
