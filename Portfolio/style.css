@@ -160,8 +160,8 @@ main {
 }
 
 .project {
-  /* border: 1px solid var(--color-medium);
-  border-radius: 0.5rem; */
+  border: 0.75px solid var(--color-medium);
+  border-radius: 0.5rem;
   padding: 1.5rem;
 }
 
