@@ -186,6 +186,7 @@ main {
 footer {
   font-weight: 500;
   margin: auto;
+  padding-bottom: 2rem;
 }
 
 .footer-link {
