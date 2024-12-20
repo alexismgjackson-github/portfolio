@@ -66,6 +66,7 @@ a:hover {
 
 p {
   line-height: 2.4rem;
+  text-align: justify;
 }
 
 li {
@@ -198,7 +199,7 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
-    padding: 1.5rem;
+    padding: 2rem;
   }
 }
 
