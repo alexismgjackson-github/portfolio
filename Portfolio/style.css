@@ -39,17 +39,17 @@ body {
 }
 
 h1 {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-style: italic;
 }
 
@@ -57,7 +57,7 @@ a,
 p,
 span,
 li {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 a:hover {
