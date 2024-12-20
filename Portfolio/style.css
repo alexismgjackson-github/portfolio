@@ -35,7 +35,7 @@ body {
   color: var(--font-color);
   display: grid;
   gap: 10rem;
-  padding: 1.75rem;
+  padding: 2rem;
 }
 
 h1 {
@@ -198,7 +198,7 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
-    padding: 2rem;
+    padding: 1.75rem;
   }
 }
 
