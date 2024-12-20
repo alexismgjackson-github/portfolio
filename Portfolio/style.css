@@ -57,7 +57,7 @@ a,
 p,
 span,
 li {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 a:hover {
@@ -65,8 +65,7 @@ a:hover {
 }
 
 p {
-  line-height: 2.4rem;
-  text-align: justify;
+  line-height: 2.2rem;
 }
 
 li {
