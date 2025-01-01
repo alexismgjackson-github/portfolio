@@ -161,7 +161,7 @@ main {
 
 .project {
   border: 0.75px solid var(--color-medium);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 1.5rem;
 }
 
