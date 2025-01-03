@@ -147,7 +147,7 @@ input:checked + .slider:before {
 
 main {
   display: grid;
-  gap: 8rem;
+  gap: 12rem;
 }
 
 .intro {
