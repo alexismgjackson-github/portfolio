@@ -212,7 +212,9 @@ main {
 /* FOOTER */
 
 footer {
+  display: flex;
   font-weight: 500;
+  gap: 2rem;
   margin: auto;
 }
 
@@ -222,10 +224,6 @@ footer {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-}
-
-.github {
-  margin-left: 0.5rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
