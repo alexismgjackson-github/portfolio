@@ -214,7 +214,7 @@ main {
 footer {
   display: flex;
   font-weight: 500;
-  gap: 2rem;
+  gap: 4rem;
   margin: auto;
 }
 
