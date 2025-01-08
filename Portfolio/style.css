@@ -34,7 +34,7 @@ body {
   background-color: var(--background-color);
   color: var(--font-color);
   display: grid;
-  gap: 12rem;
+  gap: 15rem;
   padding: 2rem;
 }
 
@@ -50,7 +50,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-style: italic;
   font-weight: 500;
 }
@@ -147,7 +147,7 @@ input:checked + .slider:before {
 
 main {
   display: grid;
-  gap: 12rem;
+  gap: 15rem;
 }
 
 .intro-section {
@@ -193,7 +193,7 @@ main {
 
 .project-tools {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .tool,
