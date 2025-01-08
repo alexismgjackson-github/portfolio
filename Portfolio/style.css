@@ -185,6 +185,7 @@ main {
   padding-right: 1rem;
 }
 
+.project-duration,
 .experience-duration {
   color: var(--color-highlight);
   font-size: 1.4rem;
@@ -198,6 +199,7 @@ main {
 
 .tool,
 .link,
+.project-duration,
 .experience-duration {
   font-weight: 500;
 }
