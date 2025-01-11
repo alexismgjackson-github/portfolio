@@ -34,18 +34,18 @@ body {
   background-color: var(--background-color);
   color: var(--font-color);
   display: grid;
-  gap: 15rem;
+  gap: 20rem;
   padding: 2rem;
 }
 
 h1 {
-  font-size: 3.8rem;
+  font-size: 3rem;
 }
 
 h2 {
   font-size: 1.6rem;
   font-weight: 500;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   text-transform: uppercase;
 }
 
@@ -91,7 +91,9 @@ a {
 /* HEADER */
 
 header {
-  text-align: end;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .toggle {
@@ -147,7 +149,7 @@ input:checked + .slider:before {
 
 main {
   display: grid;
-  gap: 15rem;
+  gap: 20rem;
 }
 
 .intro-section {
@@ -168,7 +170,7 @@ main {
 .experience-grid,
 .projects-grid {
   display: grid;
-  gap: 6rem;
+  gap: 5rem;
 }
 
 .experience,
