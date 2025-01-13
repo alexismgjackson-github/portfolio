@@ -44,7 +44,7 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 5rem;
   text-transform: uppercase;
 }
@@ -163,10 +163,6 @@ main {
   font-weight: 500;
 }
 
-.summary {
-  color: var(--color-light);
-}
-
 .experience-grid,
 .projects-grid {
   display: grid;
@@ -184,13 +180,8 @@ main {
 }
 
 .project-name {
+  font-weight: 500;
   padding-right: 1rem;
-}
-
-.experience-duration {
-  color: var(--color-highlight);
-  font-size: 1.4rem;
-  text-transform: uppercase;
 }
 
 .project-tools {
@@ -205,6 +196,17 @@ main {
 }
 
 .tool {
+  color: var(--color-highlight);
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.experience-title {
+  font-weight: 500;
+}
+
+.experience-duration {
   color: var(--color-highlight);
   font-size: 1.4rem;
   text-transform: uppercase;
