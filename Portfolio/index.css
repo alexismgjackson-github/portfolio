@@ -34,7 +34,7 @@ body {
   background-color: var(--background-color);
   color: var(--font-color);
   display: grid;
-  gap: 20rem;
+  gap: 18rem;
   padding: 2rem;
 }
 
@@ -45,7 +45,7 @@ h1 {
 h2 {
   font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   text-transform: uppercase;
 }
 
@@ -149,7 +149,7 @@ input:checked + .slider:before {
 
 main {
   display: grid;
-  gap: 20rem;
+  gap: 18rem;
 }
 
 .intro-section {
@@ -166,7 +166,7 @@ main {
 .experience-grid,
 .projects-grid {
   display: grid;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .experience,
