@@ -1,3 +1,78 @@
+import { built } from "./data/projectsBuilt.js";
+import { building } from "./data/projectsBuilding.js";
+import { experience } from "./data/experience.js";
+
+function getBuiltHtml() {
+  let builtHtml = ``;
+
+  built.forEach(function (project) {
+    builtHtml += `
+     <div class="project">
+        <div class="project-header">
+          <h3 class="project-name">${project.name}</h3>
+          <a
+                href="${project.link}"
+                target="_blank"
+                class="project-link"
+                alt="Link to ${project.name} project"
+          >
+           <img src="icons/arrow.svg" alt="Link icon" class="link-icon">
+          </a>
+        </div>
+        <p class="project-details">
+              ${project.details}
+        </p>
+    </div>
+    `;
+  });
+  return builtHtml;
+}
+
+function getBuildingHtml() {
+  let buildingHtml = ``;
+
+  building.forEach(function (project) {
+    buildingHtml += `
+     <div class="project">
+        <div class="project-header">
+          <h3 class="project-name">${project.name}</h3>
+          <span><img src="icons/timer.svg" alt="Timer icon" class="timer-icon"></span>
+        </div>
+        <p class="project-details">
+              ${project.details}
+        </p>
+    </div>
+    `;
+  });
+  return buildingHtml;
+}
+
+function getExperienceHtml() {
+  let experienceHtml = ``;
+
+  experience.forEach(function (role) {
+    experienceHtml += `
+    <div class="experience">
+      <h3 class="experience-title">${role.title}</h3>
+      <span class="experience-duration">${role.duration}</span>
+      <p class="experience-details">${role.details}</p>
+    </div>
+    `;
+  });
+  return experienceHtml;
+}
+
+function render() {
+  document.getElementById("experience-grid").innerHTML = getExperienceHtml();
+  document.getElementById("projects-built-grid").innerHTML = getBuiltHtml();
+  document.getElementById("projects-building-grid").innerHTML =
+    getBuildingHtml();
+}
+
+render();
+
+////////// TOGGLE SECTION //////////
+
 // get the first input element w/ "toggle-switch" class name
 
 const toggleSwitch = document.querySelector(

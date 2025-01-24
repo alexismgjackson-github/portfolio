@@ -163,6 +163,13 @@ main {
   gap: 6rem;
 }
 
+.experience-duration {
+  color: var(--color-highlight);
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .experience,
 .project {
   display: grid;
@@ -176,19 +183,6 @@ main {
 .project-name {
   font-weight: 500;
   padding-right: 1rem;
-}
-
-.project-tools {
-  display: flex;
-  gap: 1.25rem;
-}
-
-.tool,
-.experience-duration {
-  color: var(--color-highlight);
-  font-size: 1.4rem;
-  font-weight: 600;
-  text-transform: uppercase;
 }
 
 /* FOOTER */
