@@ -35,7 +35,6 @@ body {
   color: var(--font-color);
   display: grid;
   gap: 18rem;
-  padding: 2rem;
 }
 
 h1 {
@@ -86,8 +85,13 @@ li {
 
 header {
   align-items: center;
+  background-color: var(--background-color);
+  box-shadow: hsla(0 0% 0% / 0.1) 0 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
 }
 
 .toggle {
@@ -144,6 +148,7 @@ input:checked + .slider:before {
 main {
   display: grid;
   gap: 18rem;
+  padding: 2rem;
 }
 
 .intro-section {
@@ -192,6 +197,7 @@ footer {
   font-weight: 500;
   gap: 4rem;
   margin: auto;
+  padding: 2rem;
 }
 
 .footer-link {
@@ -204,9 +210,6 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body {
-    padding: 2rem;
-  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

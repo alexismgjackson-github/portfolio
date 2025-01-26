@@ -6,7 +6,8 @@ export const built = [
               directly from this fictional bakery. The user can click to
               add/remove menu items to a shopping cart and an make online
               payment. The site utilizes LocalStorage to store data in a
-              shopping cart. This project was built using React.`,
+              shopping cart. Images are sourced from the Unsplash website.
+              This project was built using React.`,
   },
   {
     name: `Portfolio`,

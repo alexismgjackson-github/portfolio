@@ -2,11 +2,12 @@ export const experience = [
   {
     title: `Frontend Developer - Freelance`,
     duration: `Nov 2024 - Present`,
-    details: `Implementing pixel-perfect, mobile-first UI/UX using HTML, CSS,
+    details: `Implementing pixel-perfect, mobile-first UI/UX using HTML5, CSS3,
               JavaScript, and React. Optimize applications for maximum speed,
-              scalability, accessibility and cross-browser compatibility.
-              Familiarity with Git, LocalStorage and Firebase. Consume REST APIs
-              to ensure seamless data exchange.`,
+              scalability, accessibility and cross-browser compatibility. Utilize
+              version control with Git and Github for code management. Consume REST
+              APIs to integrate dynamic data into web applications. Utilize
+              LocalStorage and Firebase to store data.`,
   },
   {
     title: `Delivery Driver - UberEats`,

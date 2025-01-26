@@ -8,6 +8,13 @@ export const building = [
               their records. This project will be built using JavaScript.`,
   },
   {
+    name: `Frontend Flash`,
+    details: `This fully responsive app allows the user to test their frontend development
+              knowledge utilizing flash cards. The user can choose which category to study. 
+              The questions are sourced from the "Frontend Developer Interview Questions" 
+              website. This project will be built using React.`,
+  },
+  {
     name: `Lexicon`,
     details: `This fully responsive app allows the user to search the definition
               of a word. The user has the ability to toggle the dark/light
