@@ -208,31 +208,33 @@ footer {
   text-transform: uppercase;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  body {
-    margin: 0 10rem;
+  header,
+  main,
+  footer {
+    padding: 2rem 10rem;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  body {
-    margin: 0 20rem;
-  }
   .footer-links {
     display: flex;
     gap: 1.5rem;
+  }
+  header,
+  main,
+  footer {
+    padding: 2rem 20rem;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  body {
-    margin: 0 30rem;
+  header,
+  main,
+  footer {
+    padding: 2rem 30rem;
   }
 }
