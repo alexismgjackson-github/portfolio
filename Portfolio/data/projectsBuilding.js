@@ -1,11 +1,11 @@
 export const building = [
   {
-    name: `Day By Day`,
-    details: `This fully responsive app allows the user to keep a daily record
-              of events and experiences. The user can toggle the dark/light mode
-              theme for better visibility. The app utilizes Firebase
-              Authentication and Firebase Realtime Database to identify the user 
-              and store their records. This project will be built using JavaScript.`,
+    name: `AppTrak`,
+    details: `This fully responsive CRUD app allows the user to keep a record
+              of their job applications. The job applications can be sorted by 
+              date, salary and status. The user can toggle the dark/light mode
+              theme for better visibility. The app utilizes Firebase Realtime Database
+              store the data. This project will be built using React.`,
   },
   {
     name: `Frontend Flash`,
