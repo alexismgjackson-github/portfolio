@@ -18,7 +18,8 @@ export const building = [
   {
     name: `Nomadic`,
     details: `This fully responsive app allows the user to browse the listings of a select 
-              few camper vans for a duration. Images are sourced from the Unsplash website.
-              This project will be built using React and Material UI.`,
+              few camper vans. The user can book a camper van for a duration of their choosing
+              based on time and date. Images are sourced from the Unsplash website. This project
+              will be built using React and Material UI.`,
   },
 ];
