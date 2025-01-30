@@ -7,7 +7,7 @@ export const built = [
               add/remove menu items to a shopping cart and an make online
               payment. The site utilizes LocalStorage to store data in a
               shopping cart. Images are sourced from the Unsplash website.
-              This project was built using React.`,
+              This project was built using React and React Router 6.`,
   },
   {
     name: `Portfolio`,
