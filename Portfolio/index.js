@@ -1,6 +1,7 @@
 import { built } from "./data/projectsBuilt.js";
 import { building } from "./data/projectsBuilding.js";
 import { experience } from "./data/experience.js";
+import { tools } from "./data/tools.js";
 
 function getBuiltHtml() {
   let builtHtml = ``;
@@ -62,11 +63,30 @@ function getExperienceHtml() {
   return experienceHtml;
 }
 
+function getToolsHtml() {
+  let toolsHtml = ``;
+
+  tools.forEach(function (tool) {
+    toolsHtml += `
+    <li class="tool">
+      <span
+      ><img
+        src="icons/tool.svg"
+        alt="Tool icon"
+        class="tool-icon" /></span
+      >${tool.name}
+    </li>
+    `;
+  });
+  return toolsHtml;
+}
+
 function render() {
   document.getElementById("experience-grid").innerHTML = getExperienceHtml();
   document.getElementById("projects-built-grid").innerHTML = getBuiltHtml();
   document.getElementById("projects-building-grid").innerHTML =
     getBuildingHtml();
+  document.getElementById("tools-list").innerHTML = getToolsHtml();
 }
 
 render();

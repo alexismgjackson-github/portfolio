@@ -38,11 +38,11 @@ body {
 }
 
 h1 {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 4rem;
   text-transform: uppercase;
@@ -56,8 +56,7 @@ h3 {
 
 a,
 p,
-span,
-li {
+span {
   font-size: 1.6rem;
 }
 
@@ -71,13 +70,17 @@ a:hover {
 }
 
 p {
-  color: var(--color-light);
-  font-weight: 400;
   line-height: 2.6rem;
 }
 
+p,
 li {
-  color: var(--color-medium);
+  color: var(--color-light);
+  font-weight: 400;
+}
+
+li {
+  font-size: 1.8rem;
   list-style: none;
 }
 
@@ -190,6 +193,20 @@ main {
   padding-right: 1rem;
 }
 
+.tools-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.tool {
+  align-items: center;
+  display: flex;
+}
+
+.tool-icon {
+  margin-right: 1rem;
+}
+
 /* FOOTER */
 
 footer {
@@ -223,6 +240,7 @@ footer {
     display: flex;
     gap: 1.5rem;
   }
+
   header,
   main,
   footer {
