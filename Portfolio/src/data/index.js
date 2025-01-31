@@ -17,7 +17,7 @@ function getBuiltHtml() {
                 class="project-link"
                 alt="Link to ${project.name} project"
           >
-           <img src="assets/icons/arrow.svg" alt="Link icon" class="link-icon">
+           <img src="./public/assets/icons/arrow.svg" alt="Link icon" class="link-icon">
           </a>
         </div>
         <p class="project-details">
@@ -37,7 +37,7 @@ function getBuildingHtml() {
      <div class="project">
         <div class="project-header">
           <h3 class="project-name">${project.name}</h3>
-          <span><img src="assets/icons/timer.svg" alt="Timer icon" class="timer-icon"></span>
+          <span><img src="./public/assets/icons/timer.svg" alt="Timer icon" class="timer-icon"></span>
         </div>
         <p class="project-details">
               ${project.details}
@@ -71,7 +71,7 @@ function getToolsHtml() {
     <li class="tool">
       <span
       ><img
-        src="assets/icons/tool.svg"
+        src="./public/assets/icons/tool.svg"
         alt="Tool icon"
         class="tool-icon" /></span
       >${tool.name}
