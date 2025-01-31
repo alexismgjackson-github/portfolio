@@ -11,7 +11,7 @@ export const built = [
   },
   {
     name: `Portfolio`,
-    link: ``,
+    link: `#`,
     details: `This full responsive, minimalistic site showcases my projects and
               experience. The user can toggle the dark/light mode theme for
               better visibility. This project was built using JavaScript.`,
