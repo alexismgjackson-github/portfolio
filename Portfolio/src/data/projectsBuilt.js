@@ -23,7 +23,7 @@ export const built = [
               keyword, get their synopsis and double click to add/remove the
               movie to a watch list. The app utilizes Firebase Authentication to
               identify the user. The app receives data from The Movie Database
-              API and utilizes LocalStorage to store data in a watch list.
+              API and utilizes Firestore Database to store data in a watch list.
               This project was built using JavaScript.`,
   },
 ];
