@@ -20,7 +20,7 @@ export const built = [
     name: `Watcher`,
     link: `https://alexis-jackson-watcher.netlify.app`,
     details: `This full responsive app allows the user to search for movies by
-              keyword, get their synopsis and double click to add/remove the
+              keyword, get their details and double click to add/remove the
               movie to a watch list. The app utilizes Firebase Authentication to
               identify the user. The app receives data from The Movie Database
               API and utilizes Firestore Database to store data in a watch list.
