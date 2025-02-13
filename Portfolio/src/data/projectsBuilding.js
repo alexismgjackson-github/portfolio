@@ -12,9 +12,8 @@ export const building = [
     name: `Gooddog`,
     details: `This fully responsive app allows the user to book an appointment with
               a fictional mobile dog grooming company. The price of the service is 
-              determined by age, breed and size. Images are sourced from the 
-              Unsplash website. This project is being built using React and React
-              Router 7.`,
+              determined by several factors. Images are sourced from the Unsplash 
+              website. This project is being built using React and React Router 7.`,
   },
   {
     name: `Lexicon`,

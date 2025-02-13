@@ -18,9 +18,6 @@ export const tools = [
     name: `RESTful APIs`,
   },
   {
-    name: `Material UI`,
-  },
-  {
     name: `Git/GitHub`,
   },
   {
