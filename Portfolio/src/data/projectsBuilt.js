@@ -1,5 +1,12 @@
 export const built = [
   {
+    name: `Gooddog`,
+    link: `https://alexis-jackson-gooddog.netlify.app`,
+    details: `This fully responsive app allows the user to book an appointment with
+              a fictional dog grooming company. Images are sourced from the Unsplash 
+              website. This project is was built using React and React Router 7.`,
+  },
+  {
     name: `Nanami's`,
     link: `https://alexis-jackson-nanamis.netlify.app`,
     details: `This fully responsive site allows the user to order takeout
