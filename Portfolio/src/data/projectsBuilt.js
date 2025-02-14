@@ -3,7 +3,7 @@ export const built = [
     name: `Gooddog`,
     link: `https://alexis-jackson-gooddog.netlify.app`,
     details: `This fully responsive app allows the user to book an appointment with
-              a fictional dog grooming company. This project is was built using React
+              a fictional dog grooming company. This project was built using React
               and React Router 7.`,
   },
   {
@@ -23,7 +23,7 @@ export const built = [
     name: `Watcher`,
     link: `https://alexis-jackson-watcher.netlify.app`,
     details: `This full responsive app allows the user to search for movies and
-              create a watch list. This project was built using JavaScript, 
+              create their own watch list. This project was built using JavaScript, 
               The Movie Database API, Firebase Authentication and Firestore Database.`,
   },
 ];
