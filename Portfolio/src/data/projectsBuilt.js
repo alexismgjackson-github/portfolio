@@ -3,34 +3,27 @@ export const built = [
     name: `Gooddog`,
     link: `https://alexis-jackson-gooddog.netlify.app`,
     details: `This fully responsive app allows the user to book an appointment with
-              a fictional dog grooming company. Images are sourced from the Unsplash 
-              website. This project is was built using React and React Router 7.`,
+              a fictional dog grooming company. This project is was built using React
+              and React Router 7.`,
   },
   {
     name: `Nanami's`,
     link: `https://alexis-jackson-nanamis.netlify.app`,
     details: `This fully responsive site allows the user to order takeout
-              directly from this fictional bakery. The user can click to
-              add/remove menu items to a shopping cart and an make online
-              payment. The site utilizes LocalStorage to store data in a
-              shopping cart. Images are sourced from the Unsplash website.
-              This project was built using React and React Router 6.`,
+              directly from this fictional bakery. This project was built
+              using React, React Router 6 and LocalStorage.`,
   },
   {
     name: `Portfolio`,
     link: `#`,
-    details: `This full responsive, minimalistic site showcases my projects and
-              experience. The user can toggle the dark/light mode theme for
-              better visibility. This project was built using JavaScript.`,
+    details: `This full responsive site showcases my projects and
+              experience. This project was built using JavaScript.`,
   },
   {
     name: `Watcher`,
     link: `https://alexis-jackson-watcher.netlify.app`,
-    details: `This full responsive app allows the user to search for movies by
-              keyword, get their details and double click to add/remove the
-              movie to a watch list. The app utilizes Firebase Authentication to
-              identify the user. The app receives data from The Movie Database
-              API and utilizes Firestore Database to store data in a watch list.
-              This project was built using JavaScript.`,
+    details: `This full responsive app allows the user to search for movies and
+              create a watch list. This project was built using JavaScript, 
+              The Movie Database API, Firebase Authentication and Firestore Database.`,
   },
 ];
