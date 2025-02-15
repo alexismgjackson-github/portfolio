@@ -10,7 +10,7 @@ export const built = [
     name: `Nanami's`,
     link: `https://alexis-jackson-nanamis.netlify.app`,
     details: `This fully responsive site allows the user to order takeout
-              directly from this fictional bakery. This project was built
+              directly from a fictional bakery. This project was built
               using React, React Router 6 and LocalStorage.`,
   },
   {
