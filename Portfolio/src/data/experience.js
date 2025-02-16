@@ -10,6 +10,14 @@ export const experience = [
               LocalStorage and Firebase to store data.`,
   },
   {
+    title: `Catering Delivery Driver - DeliverThat`,
+    duration: `Jan 2025 - Present`,
+    details: `Maintain communication with the support team. Drive safely to restaurants 
+              and pick up catering orders. Ensure customer’s catering orders are safely
+              delivered on time and in good condition, resolving any issues that may occur.
+              Set up catering orders at drop-off location with the customer’s discretion.`,
+  },
+  {
     title: `Delivery Driver - UberEats`,
     duration: `Sep 2022 - Present`,
     details: `Maintain communication with customers to inform them of any issues
