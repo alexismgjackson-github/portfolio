@@ -15,15 +15,12 @@ export const tools = [
     name: `Vite`,
   },
   {
-    name: `RESTful APIs`,
+    name: `APIs`,
   },
   {
     name: `Git/GitHub`,
   },
   {
     name: `Firebase`,
-  },
-  {
-    name: `Claude AI`,
   },
 ];
