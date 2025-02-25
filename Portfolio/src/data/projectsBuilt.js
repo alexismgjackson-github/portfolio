@@ -26,4 +26,11 @@ export const built = [
               create their own watch list. This project was built using HTML, CSS, JavaScript, 
               The Movie Database API, Firebase Authentication and Firestore Database.`,
   },
+  {
+    name: `Yes, Chef!`,
+    link: `https://alexis-jackson-yeschef.netlify.app`,
+    details: `This fully responsive app allows the user to get tailored recipes
+     based on the ingredients they have on hand. This project is being built 
+      using React, React Router and the Claude AI.`,
+  },
 ];
