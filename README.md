@@ -21,7 +21,7 @@ This is the first portfolio site. My goal was to give it a minimalistic yet slee
 
 ## WHAT I LEARNED
 
-### _EXPORTING & IMPORTING DATA_
+### _EXPORTING/IMPORTING DATA_
 
 - Using named imports and setting type="module" in the script tag
 - Using forEach to iterate over the array of objects
