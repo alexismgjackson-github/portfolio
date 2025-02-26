@@ -16,13 +16,13 @@ export const built = [
   {
     name: `Portfolio`,
     link: `#`,
-    details: `This full responsive site showcases my projects and
+    details: `This fully responsive site showcases my projects and
               experience. This project was built using HTML, CSS and JavaScript.`,
   },
   {
     name: `Watcher`,
     link: `https://alexis-jackson-watcher.netlify.app`,
-    details: `This full responsive app allows the user to search for movies and
+    details: `This fully responsive app allows the user to search for movies and
               create their own watch list. This project was built using HTML, CSS, JavaScript, 
               The Movie Database API, Firebase Authentication and Firestore Database.`,
   },
