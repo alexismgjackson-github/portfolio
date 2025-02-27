@@ -1,6 +1,6 @@
 # _PORTFOLIO - PERSONAL WEBSITE_
 
-Portfolio is a fully responsive site showcases my projects and experience.
+Portfolio is a fully responsive site that showcases my projects and experience.
 
 ## FEATURES
 
