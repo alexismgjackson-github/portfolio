@@ -47,7 +47,7 @@ This is the first portfolio site. My goal was to give it a minimalistic yet slee
 
 ## BUGS
 
-- I have not found any bugs for this project yet
+- I have not found any bugs yet
 
 ## FUTURE UPDATES
 
