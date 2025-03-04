@@ -20,8 +20,8 @@ export const built = [
               experience. This project was built using HTML, CSS and JavaScript.`,
   },
   {
-    name: `Watcher`,
-    link: `https://alexis-jackson-watcher.netlify.app`,
+    name: `Watcher V1`,
+    link: `https://alexis-jackson-watcherv1.netlify.app`,
     details: `This fully responsive app allows the user to search for movies and
               create their own watch list. This project was built using HTML, CSS, JavaScript, 
               The Movie Database API, Firebase Authentication and Firestore Database.`,

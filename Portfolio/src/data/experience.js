@@ -2,7 +2,7 @@ export const experience = [
   {
     title: `Frontend Developer - Freelance`,
     duration: `Jan 2025 - Present`,
-    details: `Implementing pixel-perfect, mobile-first UI/UX using HTML5, CSS3,
+    details: `Implementing mobile-first UI/UX using HTML5, CSS3,
               JavaScript, and React. Optimize applications for maximum speed,
               scalability, accessibility and cross-browser compatibility. Utilize
               version control with Git and Github for code management. Consume REST
