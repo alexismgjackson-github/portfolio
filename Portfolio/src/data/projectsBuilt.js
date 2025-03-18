@@ -20,6 +20,12 @@ export const built = [
               experience. This project was built using HTML, CSS and JavaScript.`,
   },
   {
+    name: `To Do List`,
+    link: `https://alexis-jackson-todolist.netlify.app`,
+    details: `This fully responsive CRUD app allows the user to create their own to do list. 
+              This project was built using CSS, React and LocalStorage.`,
+  },
+  {
     name: `Watcher V1`,
     link: `https://alexis-jackson-watcherv1.netlify.app`,
     details: `This fully responsive app allows the user to search for movies and

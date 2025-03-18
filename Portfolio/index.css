@@ -166,12 +166,6 @@ main {
   gap: 1.5rem;
 }
 
-.highlight {
-  color: var(--color-highlight);
-  font-style: italic;
-  font-weight: 500;
-}
-
 .experience-grid,
 .projects-grid {
   display: grid;
