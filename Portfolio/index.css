@@ -1,8 +1,8 @@
 :root {
-  --background-color: #080c1b;
+  --background-color: #141414;
   --color-extralight: #f5f5f5;
   --color-semibold: #3e3d3d;
-  --color-highlight: #464ee7;
+  --color-highlight: #8c8c8c;
   --font-color: #f5f5f5;
   --font-family: "Poppins", serif;
   --paragraph-color: #bac2ce;
@@ -68,7 +68,7 @@ span {
 }
 
 a {
-  color: var(--color-highlight);
+  color: #464ee7;
   text-decoration: none;
 }
 
@@ -173,7 +173,7 @@ main {
 }
 
 .experience-duration {
-  color: var(--color-highlight);
+  color: #464ee7;
   font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;
