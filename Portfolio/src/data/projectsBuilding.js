@@ -6,9 +6,8 @@ export const building = [
     Database.`,
   },
   {
-    name: `Forecast`,
-    details: `This fully responsive app allows the user to search the weather forecast of a desired city. 
-    This project is being built using CSS, React, the OpenWeatherMap API and
-    LocalStorage.`,
+    name: `Weather`,
+    details: `This fully responsive app allows the user to search the realtime weather of multiple 
+    cities. This project is being built using CSS, React, the WeatherAPI and LocalStorage.`,
   },
 ];

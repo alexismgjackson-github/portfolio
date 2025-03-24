@@ -40,18 +40,9 @@ body {
 
 h1 {
   font-size: 2.4rem;
-}
-
-h2 {
-  font-size: 2.2rem;
   font-weight: 600;
   margin-bottom: 4rem;
   text-transform: uppercase;
-}
-
-h1,
-h2 {
-  font-weight: 600;
 }
 
 h3 {
@@ -61,7 +52,7 @@ h3 {
 }
 
 .logo {
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
