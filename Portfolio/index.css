@@ -35,7 +35,7 @@ body {
   background-color: var(--background-color);
   color: var(--font-color);
   display: grid;
-  gap: 18rem;
+  gap: 12rem;
 }
 
 h1 {
@@ -152,7 +152,7 @@ input:checked + .slider:before {
 
 main {
   display: grid;
-  gap: 18rem;
+  gap: 12rem;
   padding: 2rem;
 }
 

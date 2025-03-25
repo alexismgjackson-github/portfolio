@@ -3,7 +3,7 @@ export const built = [
     name: `Gooddog`,
     link: `https://alexis-jackson-gooddog.netlify.app`,
     details: `This fully responsive app allows the user to book an appointment with
-              a fictional dog grooming company. This project was built using React
+              a fictional dog grooming company. This project was built using CSS, React
               and React Router.`,
   },
   {
@@ -11,7 +11,7 @@ export const built = [
     link: `https://alexis-jackson-nanamis.netlify.app`,
     details: `This fully responsive site allows the user to order takeout
               directly from a fictional bakery. This project was built
-              using React, React Router and LocalStorage.`,
+              using CSS, React, React Router and LocalStorage.`,
   },
   {
     name: `Portfolio`,
@@ -33,10 +33,16 @@ export const built = [
               The Movie Database API, Firebase Authentication and Firestore Database.`,
   },
   {
+    name: `Weather`,
+    link: `https://alexis-jackson-weather.netlify.app`,
+    details: `This fully responsive app allows the user to search the realtime weather of multiple 
+              cities. This project was built using CSS, React, the WeatherAPI and LocalStorage.`,
+  },
+  {
     name: `Yes, Chef!`,
     link: `https://alexis-jackson-yeschef.netlify.app`,
     details: `This fully responsive app allows the user to get tailored recipes
-     based on the ingredients they have on hand. This project is being built 
-      using React, React Router and Hugging Face's Mistral AI.`,
+              based on the ingredients they have on hand. This project was built 
+              using CSS, React, React Router and Hugging Face's Mistral AI.`,
   },
 ];
