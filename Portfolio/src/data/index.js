@@ -16,8 +16,18 @@ function getBuiltHtml() {
                 target="_blank"
                 class="project-link"
                 alt="Link to ${project.name} project"
+                aria-label="Link to ${project.name} project"
           >
            <img src="./public/assets/icons/arrow.svg" alt="Link icon" class="link-icon">
+          </a>
+           <a
+                href="${project.code}"
+                target="_blank"
+                class="project-link"
+                alt="Link to ${project.name}'s code in Github"
+                aria-label="Link to ${project.name}'s code in Github"
+          >
+           <img src="./public/assets/icons/code.svg" alt="Code icon" class="code-icon">
           </a>
         </div>
         <p class="project-details">

@@ -189,6 +189,10 @@ main {
   padding-right: 1rem;
 }
 
+.code-icon {
+  margin-left: 1rem;
+}
+
 .tools-list {
   display: grid;
   gap: 1rem;
