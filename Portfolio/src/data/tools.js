@@ -23,4 +23,7 @@ export const tools = [
   {
     name: `Firebase`,
   },
+  {
+    name: `Netlify`,
+  },
 ];

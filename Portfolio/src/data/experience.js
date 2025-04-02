@@ -7,7 +7,7 @@ export const experience = [
               scalability, accessibility and cross-browser compatibility. Utilize
               version control with Git and Github for code management. Consume REST
               APIs to integrate dynamic data into web applications. Utilize
-              LocalStorage and Firebase to store data.`,
+              LocalStorage and Firebase to store data. Deploying applications using Netlify.`,
   },
   {
     title: `Catering Delivery Driver - DeliverThat`,
