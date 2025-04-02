@@ -18,7 +18,7 @@ function getBuiltHtml() {
                 alt="Link to ${project.name} project"
                 aria-label="Link to ${project.name} project"
           >
-           <img src="./public/assets/icons/arrow.svg" alt="Link icon" class="link-icon">
+           <img src="./public/assets/icons/view.svg" alt="View icon" class="view-icon">
           </a>
            <a
                 href="${project.code}"
