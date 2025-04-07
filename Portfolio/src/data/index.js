@@ -14,7 +14,7 @@ function getBuiltHtml() {
           <a
                 href="${project.link}"
                 target="_blank"
-                class="project-link"
+                class="project-link site"
                 alt="Link to ${project.name} project"
                 aria-label="Link to ${project.name} project"
           >
@@ -23,7 +23,7 @@ function getBuiltHtml() {
            <a
                 href="${project.code}"
                 target="_blank"
-                class="project-link"
+                class="project-link code"
                 alt="Link to ${project.name}'s code in Github"
                 aria-label="Link to ${project.name}'s code in Github"
           >
