@@ -5,7 +5,8 @@ export const experience = [
     details: `Implementing mobile-first UI/UX using HTML5, CSS3,
               JavaScript, and React. Optimize applications for maximum speed,
               scalability, accessibility and cross-browser compatibility. Utilize
-              version control with Git and Github for code management. Consume REST
+              version control with Git and Github for code management. Utilize Firebase 
+              Authentication to build secure authentication systems. Consume REST
               APIs to integrate dynamic data into web applications. Utilize
               LocalStorage and Firebase to store data. Deploying applications using Netlify.`,
   },
