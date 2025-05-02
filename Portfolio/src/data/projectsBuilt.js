@@ -12,8 +12,8 @@ export const built = [
     link: `https://alexis-jackson-gooddog.netlify.app`,
     code: `https://github.com/alexismgjackson-github/gooddog`,
     details: `This fully responsive app allows the user to book an appointment with
-              a fictional dog grooming company. This project was built using CSS, React
-              and React Router.`,
+              a fictional dog grooming company. This project was built using CSS, React, React Router
+              and LocalStorage.`,
   },
   {
     name: `Nanami's`,
