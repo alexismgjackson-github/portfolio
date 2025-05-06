@@ -4,7 +4,6 @@ import { experience } from "./experience.js";
 import { tools } from "./tools.js";
 
 // Generates HTML markup for completed projects
-
 function getBuiltHtml() {
   let builtHtml = ``;
 
@@ -50,7 +49,6 @@ function getBuiltHtml() {
 }
 
 // Generates HTML markup for projects currently being worked on
-
 function getBuildingHtml() {
   let buildingHtml = ``;
 
@@ -74,7 +72,6 @@ function getBuildingHtml() {
 }
 
 // Generates HTML markup for work experience entries
-
 function getExperienceHtml() {
   let experienceHtml = ``;
 
@@ -92,7 +89,6 @@ function getExperienceHtml() {
 }
 
 // Generates HTML markup for tools used (skills or software/tools list)
-
 function getToolsHtml() {
   let toolsHtml = ``;
 
@@ -114,7 +110,6 @@ function getToolsHtml() {
 }
 
 // Renders all the HTML content into appropriate DOM containers
-
 function render() {
   document.getElementById("experience-grid").innerHTML = getExperienceHtml();
   document.getElementById("projects-built-grid").innerHTML = getBuiltHtml();
@@ -124,19 +119,16 @@ function render() {
 }
 
 // Call render to populate the page on load
-
 render();
 
 ////////// TOGGLE SECTION //////////
 
 // Selects the theme toggle checkbox input
-
 const toggleSwitch = document.querySelector(
   '.toggle-switch input[type="checkbox"]'
 );
 
 // Checks for and applies the saved theme from localStorage
-
 const currentTheme = localStorage.getItem("theme");
 
 if (currentTheme) {
@@ -150,7 +142,6 @@ if (currentTheme) {
 }
 
 // Handles theme switching logic and stores the selection
-
 function switchTheme(e) {
   if (e.target.checked) {
     // Apply light theme
@@ -164,5 +155,4 @@ function switchTheme(e) {
 }
 
 // Add listener to the checkbox to handle user theme toggle
-
 toggleSwitch.addEventListener("change", switchTheme);

@@ -1,5 +1,7 @@
+// An array of work experience objects, each representing a job or role held
 export const experience = [
   {
+    // Freelance frontend developer experience
     title: `Frontend Developer - Freelance`,
     duration: `January 2025 - Present`,
     details: `Implementing mobile-first UI/UX using HTML5, CSS3,
@@ -11,6 +13,7 @@ export const experience = [
               LocalStorage and Firebase to store data. Deploying applications using Netlify.`,
   },
   {
+    // Catering delivery work for DeliverThat
     title: `Catering Delivery Driver - DeliverThat`,
     duration: `January 2025 - Present`,
     details: `Maintain communication with the support team. Drive safely to restaurants 
@@ -19,6 +22,7 @@ export const experience = [
               Set up catering orders at drop-off location with the customer’s discretion.`,
   },
   {
+    // General delivery driver role with UberEats
     title: `Delivery Driver - UberEats`,
     duration: `September 2022 - Present`,
     details: `Maintain communication with customers to inform them of any issues
@@ -28,6 +32,7 @@ export const experience = [
               condition, resolving any issues that may occur.`,
   },
   {
+    // Stocking role at Aldi grocery store
     title: `Stocker - Aldi`,
     duration: `September 2024 - January 2025`,
     details: `Provides exceptional customer service, assisting customers with
@@ -39,6 +44,7 @@ export const experience = [
               electric/manual hand jack, floor scrubber, and cardboard baler.`,
   },
   {
+    // Housekeeping experience at a major resort
     title: `Housekeeper - Walt Disney World`,
     duration: `October 2021 - June 2022`,
     details: `Interact with guests on a daily basis, respond in a timely,
@@ -51,6 +57,7 @@ export const experience = [
               overall upkeep of guest rooms.`,
   },
   {
+    // Grocery store team member role at Whole Foods
     title: `Team Member - Whole Foods Market`,
     duration: `April 2018 - September 2021`,
     details: `Provide premier customer service, addressing the needs of
@@ -63,6 +70,7 @@ export const experience = [
               kitchen and receiving area as assigned.`,
   },
   {
+    // Cashier and front-end clerk experience at Publix
     title: `Front End Clerk/Cashier - Publix Super Markets`,
     duration: `August 2014 - March 2018`,
     details: `Provide premier customer service, including greeting customers and

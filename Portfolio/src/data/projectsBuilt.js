@@ -1,5 +1,7 @@
+// An array of completed projects with their names, links, source code, and details
 export const built = [
   {
+    // Check-In app allows users to record daily mental health check-ins
     name: `Check-In`,
     link: `https://alexis-jackson-checkin.netlify.app`,
     code: `https://github.com/alexismgjackson-github/checkin`,
@@ -8,6 +10,7 @@ export const built = [
     Database.`,
   },
   {
+    // Gooddog app allows users to book an appointment with a fictional dog grooming company
     name: `Gooddog`,
     link: `https://alexis-jackson-gooddog.netlify.app`,
     code: `https://github.com/alexismgjackson-github/gooddog`,
@@ -16,6 +19,7 @@ export const built = [
               and LocalStorage.`,
   },
   {
+    // Nanami's app allows users to order takeout from a fictional bakery
     name: `Nanami's`,
     link: `https://alexis-jackson-nanamis.netlify.app`,
     code: `https://github.com/alexismgjackson-github/nanamis`,
@@ -24,6 +28,7 @@ export const built = [
               using CSS, React, React Router and LocalStorage.`,
   },
   {
+    // Personal Portfolio website showcasing projects and experience
     name: `Portfolio`,
     link: `#`,
     code: `https://github.com/alexismgjackson-github/portfolio`,
@@ -31,6 +36,7 @@ export const built = [
               experience. This project was built using HTML, CSS and JavaScript.`,
   },
   {
+    // To Do List app allows users to create their own to-do list (CRUD functionality)
     name: `To Do List`,
     link: `https://alexis-jackson-todolist.netlify.app`,
     code: `https://github.com/alexismgjackson-github/todolist`,
@@ -38,6 +44,7 @@ export const built = [
               This project was built using CSS, React and LocalStorage.`,
   },
   {
+    // Watcher V1 app allows users to search for movies and create their own watch list
     name: `Watcher V1`,
     link: `https://alexis-jackson-watcherv1.netlify.app`,
     code: `https://github.com/alexismgjackson-github/watcherv1`,
@@ -46,6 +53,7 @@ export const built = [
               The Movie Database API, Firebase Authentication and Firestore Database.`,
   },
   {
+    // Weather app allows users to search the real-time weather of multiple cities
     name: `Weather`,
     link: `https://alexis-jackson-weather.netlify.app`,
     code: `https://github.com/alexismgjackson-github/weather`,
@@ -53,6 +61,7 @@ export const built = [
               cities. This project was built using CSS, React, the WeatherAPI and LocalStorage.`,
   },
   {
+    // Yes, Chef! app suggests tailored recipes based on the ingredients the user has on hand
     name: `Yes, Chef!`,
     link: `https://alexis-jackson-yeschef.netlify.app`,
     code: `https://github.com/alexismgjackson-github/yeschef`,
