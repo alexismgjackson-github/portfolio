@@ -24,7 +24,7 @@ export const experience = [
   {
     // General delivery driver role with UberEats
     title: `Delivery Driver - UberEats`,
-    duration: `September 2022 - Present`,
+    duration: `September 2022 - May 2025`,
     details: `Maintain communication with customers to inform them of any issues
               or changes to their delivery. Drive safely to restaurants, pick up
               food orders, and verify food matches the customer’s order. Ensure
