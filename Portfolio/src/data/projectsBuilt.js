@@ -6,7 +6,7 @@ export const built = [
     link: `https://alexis-jackson-checkin.netlify.app`,
     code: `https://github.com/alexismgjackson-github/checkin`,
     details: `This fully responsive app allows the user to record daily mental health check-ins. 
-    This project is being built using CSS, React, React Router, Firebase Authentication and Firestore
+    This project was built using CSS, React, React Router, Firebase Authentication and Firestore
     Database.`,
   },
   {
