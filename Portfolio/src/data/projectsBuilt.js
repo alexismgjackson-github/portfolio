@@ -29,7 +29,7 @@ export const built = [
   },
   {
     // Personal Portfolio website showcasing projects and experience
-    name: `Portfolio`,
+    name: `Portfolio V1`,
     link: `#`,
     code: `https://github.com/alexismgjackson-github/portfolio`,
     details: `This fully responsive site showcases my projects and
