@@ -59,7 +59,7 @@ h3 {
 a,
 p,
 span {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 a {
@@ -169,7 +169,7 @@ main {
 
 .experience-duration {
   color: #464ee7;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
 }
