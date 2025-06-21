@@ -77,7 +77,7 @@ li {
 main {
   display: grid;
   gap: 8rem;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .projects-grid {
