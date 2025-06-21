@@ -1,12 +1,12 @@
-import { built } from "./projectsBuilt.js";
+import { built } from "./projects.js";
 
 // Generates HTML markup for completed projects
-function getBuiltHtml() {
-  let builtHtml = ``;
+function getProjectsHtml() {
+  let projectsHtml = ``;
 
   // Loop through each project in the 'built' array
   built.forEach(function (project) {
-    builtHtml += `
+    projectsHtml += `
      <div class="project">
         <div class="project-header">
           <h3 class="project-name">${project.name}</h3>
@@ -42,12 +42,12 @@ function getBuiltHtml() {
     `;
   });
 
-  return builtHtml;
+  return projectsHtml;
 }
 
 // Renders all the HTML content into appropriate DOM containers
 function render() {
-  document.getElementById("projects-built-grid").innerHTML = getBuiltHtml();
+  document.getElementById("projects-built-grid").innerHTML = getProjectsHtml();
 }
 
 // Call render to populate the page on load
