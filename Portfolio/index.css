@@ -13,6 +13,11 @@
   padding: 0;
 }
 
+.fadeIn {
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
 html {
   font-family: var(--font-family);
   font-size: 62.5%;
@@ -27,7 +32,7 @@ body {
   color: var(--font-color);
   display: grid;
   font-family: var(--font-family);
-  gap: 8rem;
+  gap: 5rem;
 }
 
 h1 {
@@ -98,20 +103,6 @@ main {
   margin-left: 2rem;
 }
 
-.tools-list {
-  display: grid;
-  gap: 1rem;
-}
-
-.tool {
-  align-items: center;
-  display: flex;
-}
-
-.tool-icon {
-  margin-right: 1rem;
-}
-
 /* FOOTER */
 
 footer {
@@ -119,7 +110,7 @@ footer {
   font-weight: 500;
   gap: 4rem;
   margin: auto;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
